@@ -1,4 +1,6 @@
-# Vue 3 + TypeScript + Vite
+# Audio Converter Web App
+
+### Vue 3 + TypeScript + Vite + Firebase
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
@@ -18,10 +20,12 @@ Firebase Functions Typescript compilation
 
 `cd functions && npm run build:watch`
 
-## Todo
+## Todos
 
-- Get id3 data of uploaded audio - https://www.npmjs.com/package/music-metadata
-- Display id3 fields in a form
-- Display conversion options (Filetype, Bitrate, Bitdepth)
-- Run the conversion and update id3 tags using ffmpeg
-- Display download link
+- Get id3 data of uploaded audio - https://superuser.com/questions/1699035/ffmpeg-extract-metadata or https://www.npmjs.com/package/music-metadata
+- Display conversion options (~~Filetype~~, Bitrate, Bitdepth)
+- Add ability to choose album artwork
+- Add component / styling framework - https://vuetifyjs.com/
+- ~~Display id3 fields in a form~~
+- ~~Run the conversion and update id3 tags using ffmpeg~~
+- ~~Display download link~~
