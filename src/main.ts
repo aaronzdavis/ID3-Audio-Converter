@@ -16,7 +16,7 @@ import { getStorage, connectStorageEmulator } from 'firebase/storage'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyA9DwJc8CHgKeko0S_1IRHAiovxn0OR3Fs",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "id3-audio-converter.firebaseapp.com",
   projectId: "id3-audio-converter",
   storageBucket: "id3-audio-converter.appspot.com",
